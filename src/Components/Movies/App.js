@@ -1,15 +1,12 @@
 
-
-
 import React from 'react';
-import CompA from './propsEx/CompA/B'; 
+import Movies from './Components/Movies/Movies'; 
 
 const App = () => {
   return (
     <div>
-      <h3>App Component</h3>
-      <hr />
-      <CompA />
+      <h2>App Component</h2>
+      <Movies />
     </div>
   );
 };
