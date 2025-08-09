@@ -1,13 +1,9 @@
-
-
-
-import React from 'react';
-import CompA from './propsEx/CompA/CompB'; 
-
+import React from "react";
+import CompA from "./CompA"; 
 const App = () => {
   return (
     <div>
-      <h3>App Component</h3>
+      <h2>App Component</h2>
       <hr />
       <CompA />
     </div>
