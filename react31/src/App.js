@@ -1,10 +1,10 @@
-import Message from "./Components/Message";
+import Message from "./Product/Product.jsx";
 let App =()=>{
 
     return <div>
             <h3>App Component</h3>
             <hr />
-            <Message/>
+            <Product/>
             </div>
 }
 export default App;
