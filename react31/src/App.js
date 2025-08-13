@@ -1,7 +1,5 @@
 import React from "react";
-import Product from "./Product/Test.jsx";
-
-
+import Product from "./Product/product-class.jsx";
 function App() {
   return (
     <div>
