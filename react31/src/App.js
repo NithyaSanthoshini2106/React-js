@@ -1,12 +1,15 @@
-import React from "react";
-import Product from "./Message/Message-1.jsx";
-function App() {
-  return (
-    <div>
-      <h2>App Component</h2>
-      <Message /> 
-    </div>
-  );
+
+
+
+import React from 'react'
+//import '../node_modules/bootstrap/dist/css/bootstrap.css' 
+import Employee from './Employees/Employee'
+import Navbar from './Navbar/Navbar'
+const App = () => {
+ return <div>
+            <Navbar/>
+            <Employee/>
+        </div>
 }
 
-export default App;
+export default App

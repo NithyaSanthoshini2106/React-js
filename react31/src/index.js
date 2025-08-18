@@ -1,5 +1,10 @@
-import ReactDom from "react-dom/client"
-import App from "./App.js"
-let rooti=ReactDom.createRoot(document.getElementById('rooti'))
-rooti.render(<h1>yello</h1>)
-rooti.render(<App/>)
+
+
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+let root= ReactDOM.createRoot(document.getElementById('root'))
+//root.render("GM")
+//root.render(<h1>GM</h1>)
+//root.render(<><h1>GM</h1><h2>GA</h2></>)
+root.render(<App/>)
