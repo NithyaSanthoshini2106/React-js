@@ -1,19 +1,15 @@
 
 
-
-import React from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import Navbar from "./Users/user";
-
+import React from 'react'
+//import '../node_modules/bootstrap/dist/css/bootstrap.css' 
+import Employee from './Employees/Employee'
+import Navbar from './Navbar/Navbar'
+import Users from './Employees/Users'
 const App = () => {
-  return (
-    <div>
-      <h2>App Component</h2>
-      <hr />
-      <button className="btn btn-success">Test</button> 
-      <Navbar />
-    </div>
-  );
-};
+ return <div>
+            <Navbar/>
+            <Users/>
+        </div>
+}
 
-export default user
+export default App
