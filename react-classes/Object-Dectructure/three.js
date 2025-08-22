@@ -15,7 +15,6 @@ user={
 }
 }
 let {email,id, address}  = user;
-//read object property like varaible?
-//console.log(user.email)
+
 console.log(email)
 console.log(id)
